@@ -1,0 +1,84 @@
+@media (min-width: 600px) {
+    /*Logo!*/
+    #logo-container {
+        height: 9em;
+        margin-top: 2em;    
+        margin-bottom: 1em;
+    }
+
+    #logo-container h1 {
+        font-size: 6em;
+    }
+    
+    #logo-container h3 {
+        font-size: 2em;
+    }
+
+    /*Search*/
+
+    #search-container {
+        width: 50%;
+        height: 100%;
+        color: white;
+    }
+
+    /*Tracks, search results.*/
+
+    #content-container {
+        width: 50%;
+        height: 100%;
+    }
+    
+    .track a {
+        align-items: center;
+    }
+
+    .track h1,
+    .track h2,
+    .track h3 {
+        margin-left: 10%;
+    }
+
+    .track h1 {
+        font-size: 3em;
+    }
+    
+    .track h2 {
+        font-size: 1.5em;
+    }
+
+    .track h3 {
+        font-size: 1.5em;
+    }
+
+    .track-img {
+        width: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .track img {
+        border-radius: 75px;
+        margin: 10%;
+    }
+
+    .track-info {
+        margin: 0.5em;
+        width: 70%;
+    }
+
+
+    a {
+        text-decoration: none;
+    }
+
+    /*Misc*/
+    .centered-container {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
