@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 body {
@@ -11,7 +12,7 @@ body {
 
 #root {
     width: 100%;
-    height: 100%;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -36,7 +37,6 @@ body {
 
 #search-container {
     width: 90%;
-    height: 100%;
     color: white;
 }
 
@@ -85,26 +85,22 @@ body {
 
 #content-container {
     width: 100%;
-    height: 100%;
 }
 
 #track-container {
     width: 90%;
-    height: 20%;
-    
+
 }
-
-
 
 .track {
     margin-top: 1em;
-    border-radius: 25px;
+    border-radius: 5px;
     box-shadow: 2px 5px #000000;
 }
 
 .track a {
     background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 25px;
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
 }
@@ -161,8 +157,31 @@ a {
 
 /*Misc*/
 .centered-container {
-
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+footer {
+    background-color: #42a5f5;
+    font-family: 'Thasadith', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    padding: 10px;
+    margin-top: auto;
+    width: 100%;
+    
+}
+
+#page-not-found {
+    font-family: 'Marck Script', cursive;
+    color: white;
+    text-shadow: 2px 1px #000000;
+    font-size: 2em;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }

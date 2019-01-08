@@ -20,6 +20,7 @@
         width: 40%;
         height: 100%;
         color: white;
+        margin-top:1em;
     }
 
     /*Tracks, search results.*/
@@ -30,10 +31,10 @@
     }
     
     #track-container{
-            display: flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
-
+    margin-top: 1em;
     }
     
     .track {
@@ -70,6 +71,10 @@
 
     a {
         text-decoration: none;
+    }
+    
+    #page-not-found {
+        font-size: 3em;
     }
 
 }
