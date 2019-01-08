@@ -24,7 +24,7 @@ body {
     height: 100px;
     margin-bottom: 1em;
     font-family: 'Marck Script', cursive;
-    color: #0652DD;
+    color: #42a5f5;
     text-shadow: 2px 1px #000000;
 }
 
@@ -59,11 +59,12 @@ body {
 }
 
 #search-button {
-    background-color: #0652DD;
+    background-color: #42a5f5;
     width: 20%;
     border: none;
     border-radius: 25px;
     box-shadow: 2px 5px #000000;
+    margin-left: 0.5em;
 }
 
 #search-button:active,
@@ -90,23 +91,25 @@ body {
 #track-container {
     width: 90%;
     height: 20%;
+    
 }
 
 
 
 .track {
     margin-top: 1em;
-    background: linear-gradient(135deg, rgba(38, 38, 42, 1) 0%, rgba(14, 14, 14, 1) 100%);
     border-radius: 25px;
-
+    box-shadow: 2px 5px #000000;
 }
 
 .track a {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
-.track a:active {
+.track:active {
     transform: translateY(4px);
 }
 
@@ -116,37 +119,41 @@ body {
     font-family: 'Thasadith', sans-serif;
     color: white;
     font-size: 1.5em;
-    margin-bottom: 0.4em;
+
     font-weight: 100;
+}
+
+.track h1 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5em;
 }
 
 .track h2 {
     font-size: 1em;
+    text-align: center;
 }
 
 .track h3 {
     font-size: 1em;
-}
-
-.track-img {
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
-}
-
-.track img {
-    width: 100%;
-    border-radius: 75px;
-    margin-right: 0.2em;
+    text-align: center;
 }
 
 .track-info {
     margin: 0.5em;
-    width: 70%;
 }
 
+.track-name {
+    width: 100%;
+}
+
+.track-album {
+    width: 100%;
+}
+
+.track-artists {
+    width: 100%;
+}
 
 a {
     text-decoration: none;
@@ -157,6 +164,5 @@ a {
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }

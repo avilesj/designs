@@ -17,7 +17,7 @@
     /*Search*/
 
     #search-container {
-        width: 50%;
+        width: 40%;
         height: 100%;
         color: white;
     }
@@ -29,6 +29,16 @@
         height: 100%;
     }
     
+    #track-container{
+            display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    }
+    
+    .track {
+        width: 70%;
+    }
     .track a {
         align-items: center;
     }
@@ -40,7 +50,7 @@
     }
 
     .track h1 {
-        font-size: 3em;
+        font-size: 2em;
     }
     
     .track h2 {
@@ -51,34 +61,15 @@
         font-size: 1.5em;
     }
 
-    .track-img {
-        width: 15%;
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
-    }
-
-    .track img {
-        border-radius: 75px;
-        margin: 10%;
-    }
-
     .track-info {
         margin: 0.5em;
-        width: 70%;
+        width: 100%;
     }
+
 
 
     a {
         text-decoration: none;
     }
 
-    /*Misc*/
-    .centered-container {
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
 }
