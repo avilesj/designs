@@ -186,3 +186,29 @@ footer {
     align-items: center;
     justify-content: center;
 }
+
+
+
+/*Track detail*/
+
+#track-data-container {
+    width: 100%;
+}
+
+#track-data {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.track-info-container {
+    padding:1em;
+    width:70%
+}
+
+.track-info-text{
+    font-family: 'Thasadith', sans-serif;
+    color: white;
+    font-size: 1em;
+    font-weight: 100;
+    text-shadow: 2px 1px #000000;
+}
