@@ -171,7 +171,7 @@ footer {
     padding: 10px;
     margin-top: auto;
     width: 100%;
-    
+
 }
 
 #page-not-found {
@@ -190,20 +190,27 @@ footer {
 
 /*Track detail*/
 
+#track-data-container {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 20px;
+    overflow: scroll;
+}
+
 #track-data {
     width: 100%;
-    display:flex;
+    display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
 .track-info-container {
-    padding:1em;
-    width:70%
+    padding: 1em;
+    width: 70%
 }
 
-.track-info-text{
+.track-info-text {
     font-family: 'Thasadith', sans-serif;
     color: white;
     font-size: 1em;
@@ -213,7 +220,7 @@ footer {
 }
 
 .title-duration {
-    display:flex;
+    display: flex;
     flex-direction: row;
     justify-content: left;
     align-items: baseline;
@@ -225,14 +232,14 @@ footer {
 }
 
 .play-button-container {
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #42a5f5;
     border-radius: 15px;
     padding: 0.5em;
-    color:white;
+    color: white;
     box-shadow: 2px 5px #000000;
 }
 
@@ -243,20 +250,25 @@ footer {
 .play-button-container h1 {
     font-family: 'Thasadith', sans-serif;
     font-weight: 100;
-    font-size:1em;
+    font-size: 1em;
     margin-right: 0.2em;
     white-space: nowrap;
-    
+
 }
+
 .play-button {
     font-size: 2em;
     margin-right: 0.2em;
 }
 
+/*features*/
+
 .track-features {
     display: flex;
     flex-direction: column;
     margin: 1em;
+    position: relative;
+
 }
 
 .feature {
@@ -276,7 +288,7 @@ footer {
 
 .feature p {
     white-space: normal;
-    margin:1em;
+    margin: 1em;
 }
 
 .feature-help {
@@ -284,7 +296,7 @@ footer {
     background-color: red;
 }
 
-.feature-level-container{
+.feature-level-container {
     font-size: 1em;
 }
 
