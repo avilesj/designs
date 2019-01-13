@@ -25,7 +25,7 @@
                 <h3>What's the tune?</h3>
             </div>
         </a>
-        <main id="track-data-container" class="centered-container">
+        <main id="track-data-container">
             <div id="track-data">
                 <div class="track-info-container track-info-text">
                     <div class="title-duration">
@@ -44,61 +44,69 @@
                     </a>
                 </div>
             </div>
-            <div id="track-features">
-                <div class="feature track-info-text">
-                    <div>
+            <div class="track-features">
+                <div onclick="toggleFetureHelp('danceability-info')" class="feature track-info-text">
+                    <div class="feature-name-container">
                         <h1>Danceability</h1>
+                        <i class="fas fa-question-circle"></i>
                     </div>
-                    <div>
-                        <h1>55%</h1>
+                    <div class="feature-level-container">
+                        <div class="feature-level centered-container" style="width: 0%;">
+                            <h2>98%</h2>
+                        </div>
+                    </div>
+                    <div id="danceability-info" class="feature-help" hidden>
+                        <p>Danceability refers to blablablablablablaLONGASSBITCH PARAGRAPH</p>
                     </div>
                 </div>
                 <div class="feature track-info-text">
                     <div>
-                        <h1>Danceability</h1>
+                        <h1>Energy</h1>
                     </div>
-                    <div>
-                        <h1>55%</h1>
-                    </div>
-                </div>
-                <div class="feature track-info-text">
-                    <div>
-                        <h1>Danceability</h1>
-                    </div>
-                    <div>
-                        <h1>55%</h1>
+                    <div class="feature-level-container">
+                        <div class="feature-level centered-container" style="width: 0%;">
+                            <h2>38%</h2>
+                        </div>
                     </div>
                 </div>
                 <div class="feature track-info-text">
                     <div>
-                        <h1>Danceability</h1>
+                        <h1>Acousticness</h1>
                     </div>
-                    <div>
-                        <h1>55%</h1>
-                    </div>
-                </div>
-                <div class="feature track-info-text">
-                    <div>
-                        <h1>Danceability</h1>
-                    </div>
-                    <div>
-                        <h1>55%</h1>
+                    <div class="feature-level-container">
+                        <div class="feature-level centered-container" style="width: 0%;">
+                            <h2>55%</h2>
+                        </div>
                     </div>
                 </div>
                 <div class="feature track-info-text">
                     <div>
-                        <h1>Danceability</h1>
+                        <h1>Instrumentalness</h1>
                     </div>
-                    <div>
-                        <h1>55%</h1>
+                    <div class="feature-level-container">
+                        <div class="feature-level centered-container" style="width: 0%;">
+                            <h2>21%</h2>
+                        </div>
                     </div>
                 </div>
                 <div class="feature track-info-text">
                     <div>
-                        <h1>Danceability</h1>
+                        <h1>Liveness</h1>
                     </div>
+                    <div class="feature-level-container">
+                        <div class="feature-level centered-container" style="width: 0%;">
+                            <h2>11%</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="feature track-info-text">
                     <div>
-                        <h1>55%</h1>
+                        <h1>Speechiness</h1>
+                    </div>
+                    <div class="feature-level-container">
+                        <div class="feature-level centered-container" style="width: 0%;">
+                            <h2>79%</h2>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -107,6 +115,7 @@
             Made by José Avilés. Powered by the Spotify API.
         </footer>
     </div>
+    <script src="app.js"></script>
 </body>
 
 </html>
