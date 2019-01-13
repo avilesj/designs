@@ -22,6 +22,10 @@
         color: white;
         margin-top:1em;
     }
+    
+    #search-button:hover {
+        cursor: pointer;
+    }
 
     /*Tracks, search results.*/
 

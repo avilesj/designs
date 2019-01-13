@@ -67,8 +67,7 @@ body {
     margin-left: 0.5em;
 }
 
-#search-button:active,
-#search-button:hover {
+#search-button:active {
     transform: translateY(4px);
 }
 
@@ -197,7 +196,10 @@ footer {
 
 #track-data {
     width: 100%;
-    min-height: 100vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .track-info-container {
@@ -211,4 +213,61 @@ footer {
     font-size: 1em;
     font-weight: 100;
     text-shadow: 2px 1px #000000;
+    white-space: nowrap;
+}
+
+.title-duration {
+    display:flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: baseline;
+}
+
+.play-on-spotify-container {
+    width: 30%;
+    margin-right: 5px;
+}
+
+.play-button-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #42a5f5;
+    border-radius: 15px;
+    padding: 0.5em;
+    color:white;
+    box-shadow: 2px 5px #000000;
+}
+
+.play-button-container:active {
+    transform: translateY(4px);
+}
+
+.play-button-container h1 {
+    font-family: 'Thasadith', sans-serif;
+    font-weight: 100;
+    font-size:1em;
+    margin-right: 0.2em;
+    white-space: nowrap;
+    
+}
+.play-button {
+    font-size: 2em;
+    margin-right: 0.2em;
+}
+
+.track-duration {
+    
+}
+
+.track-features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature {
+    color: white;
 }
