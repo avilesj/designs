@@ -17,6 +17,10 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 20px;
+    overflow: scroll;
 }
 
 /*Logo!*/
@@ -25,8 +29,9 @@ body {
     height: 100px;
     margin-bottom: 1em;
     font-family: 'Marck Script', cursive;
-    color: #42a5f5;
+    color: #ff6f00;
     text-shadow: 2px 1px #000000;
+    
 }
 
 #logo-container h1 {
@@ -59,7 +64,7 @@ body {
 }
 
 #search-button {
-    background-color: #42a5f5;
+    background-color: #ff6f00;
     width: 20%;
     border: none;
     border-radius: 25px;
@@ -163,7 +168,7 @@ a {
 }
 
 footer {
-    background-color: #42a5f5;
+    background-color: #ff6f00;
     font-family: 'Thasadith', sans-serif;
     color: white;
     text-align: center;
@@ -191,10 +196,7 @@ footer {
 /*Track detail*/
 
 #track-data-container {
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 20px;
-    overflow: scroll;
+    
 }
 
 #track-data {
@@ -226,6 +228,10 @@ footer {
     align-items: baseline;
 }
 
+.title-duration span {
+    margin-left: 1em;
+}
+
 .play-on-spotify-container {
     width: 30%;
     margin-right: 5px;
@@ -236,7 +242,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #42a5f5;
+    background-color: #ff6f00;
     border-radius: 15px;
     padding: 0.5em;
     color: white;
@@ -281,27 +287,40 @@ footer {
     align-items: baseline;
 }
 
-.feature-name-container i {
-    margin-left: 1em;
+.feature-name{
     font-size: 1.5em;
 }
 
 .feature p {
     white-space: normal;
+    font-family: 'Thasadith', sans-serif;
+    font-weight: 100;
+    text-shadow: none;
+    text-rendering: optimizeLegibility;
     margin: 1em;
 }
 
 .feature-help {
     margin-top: 1em;
-    background-color: red;
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 15px;
+    padding: 0.1em;
 }
 
 .feature-level-container {
     font-size: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.feature-level-container i {
+    font-size: 2em;
+    margin-left: 0.5em;
 }
 
 .feature-level {
-    background-color: #42a5f5;
+    background-color: #ff6f00;
     border-radius: 25px;
     box-shadow: 2px 5px #000000;
 }

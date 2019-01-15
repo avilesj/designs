@@ -80,5 +80,20 @@
     #page-not-found {
         font-size: 3em;
     }
+    
+    .track-features {
+         flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 20px;
+    }
+    
+    #track-data-container{
+        width:30%;
+    }
+    
+    #root {
+        overflow: hidden;
+       
+    }
 
 }

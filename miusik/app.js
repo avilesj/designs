@@ -27,7 +27,12 @@ function animate(element, index) {
 
 function toggleFetureHelp(id) {
     let featureHelpBox = document.getElementById(id);
+    
     featureHelpBox.hidden = !featureHelpBox.hidden;
+    
+    let arrow = featureHelpBox.parentElement.querySelector("i");
+    arrow.classList.toggle("fa-chevron-circle-down");
+    arrow.classList.toggle("fa-chevron-circle-up");
 }
 
 
