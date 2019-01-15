@@ -1,4 +1,4 @@
-@media (min-width: 600px) {
+@media (min-width: 961px) {
     /*Logo!*/
     #logo-container {
         height: 9em;
@@ -82,18 +82,17 @@
     }
     
     .track-features {
-         flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 20px;
+    overflow: hidden;
+    height: auto;
+    padding: 0.5em;
     }
     
-    #track-data-container{
-        width:30%;
+    .feature-help{
+      width: 20em;
     }
     
-    #root {
-        overflow: hidden;
-       
+    #root{
+        align-items: center;
     }
 
 }
