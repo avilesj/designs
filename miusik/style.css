@@ -19,7 +19,15 @@ body {
     height: inherit;
 }
 
-#root {
+#index-page{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#page-not-found{
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -181,7 +189,7 @@ footer {
     
 }
 
-#page-not-found {
+#page-not-found-body {
     font-family: 'Marck Script', cursive;
     color: white;
     text-shadow: 2px 1px #000000;
@@ -197,11 +205,6 @@ footer {
 
 /*Track detail page*/
 
-#track-page {
-}
-
-#track-data-container {
-}
 
 #track-data {
     width: 100%;

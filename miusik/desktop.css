@@ -1,15 +1,16 @@
 @media (min-width: 961px) {
+
     /*Logo!*/
     #logo-container {
         height: 9em;
-        margin-top: 2em;    
+        margin-top: 2em;
         margin-bottom: 1em;
     }
 
     #logo-container h1 {
         font-size: 6em;
     }
-    
+
     #logo-container h3 {
         font-size: 2em;
     }
@@ -20,9 +21,9 @@
         width: 40%;
         height: 100%;
         color: white;
-        margin-top:1em;
+        margin-top: 1em;
     }
-    
+
     #search-button:hover {
         cursor: pointer;
     }
@@ -33,17 +34,18 @@
         width: 50%;
         height: 100%;
     }
-    
-    #track-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 1em;
+
+    #track-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1em;
     }
-    
+
     .track {
         width: 70%;
     }
+
     .track a {
         align-items: center;
     }
@@ -57,7 +59,7 @@
     .track h1 {
         font-size: 2em;
     }
-    
+
     .track h2 {
         font-size: 1.5em;
     }
@@ -76,23 +78,40 @@
     a {
         text-decoration: none;
     }
-    
-    #page-not-found {
+
+    #page-not-found-container {
         font-size: 3em;
     }
-    
-    .track-features {
-    overflow: hidden;
-    height: auto;
-    padding: 0.5em;
-    }
-    
-    .feature-help{
-      width: 20em;
-    }
-    
-    #root{
+
+    #track-page {
+        display: flex;
+        flex-direction: column;
         align-items: center;
+        justify-content: center;
+    }
+
+    .track-features {
+        display: flex;
+        flex-direction: column;
+        margin: 1em;
+        flex-grow: auto;
+        flex-shrink: auto;
+        flex-basis: auto;
+        overflow:auto;
+        height: auto;
+        overflow-y: hidden;
+    }
+
+    .feature-help {
+        width: 20em;
+    }
+    
+    #track-page{
+        position: relative;
+        min-height: 100vh;
+    }
+    
+    footer{
     }
 
 }
